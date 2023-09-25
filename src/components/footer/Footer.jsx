@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="pt-16 absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center">
             <p className="text-center text-[17px] md:text-xl font-medium pb-2">Streamline verification, experience ease.
               <br/>
-              Get started today.
+              Try our demo today.
             </p>
             <button className="bg-primary hover:bg-tertiaryBlue text-white font-medium px-4 py-2 rounded pointer-events-auto fade font-body">Try Demo</button>
           </div>
