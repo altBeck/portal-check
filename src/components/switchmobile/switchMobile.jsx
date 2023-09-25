@@ -53,7 +53,7 @@ const switchMobile = () => {
           style={{
             transition: 'opacity 0.3s ease-out, transform 0.3s ease-out',
             opacity: expanded === index ? 1 : 1,
-            transform: expanded === index ? 'translate3d(0px, 0px, 0px) scale3d(0.9, 0.9, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)' : 'none',
+            transform: expanded === index ? 'translate3d(0px, 0px, 0px) scale3d(0.98, 0.98, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)' : 'none',
             transformStyle: 'preserve-3d',
             width: '100%',
             height: 'auto',

@@ -1,5 +1,5 @@
 import './App.css';
-import { Nav, Header, Work, Faq } from './components';
+import { Nav, Header, Work, Faq, Footer } from './components';
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <Header />
       <Work />
       <Faq />
+      <Footer />
     </>
   )
 }

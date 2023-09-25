@@ -2,7 +2,7 @@ import QnA from "../qna/QnA";
 
 const Faq = () => {
   return (
-    <div className="px-4 relative max-w-6xl mx-auto md:py-32">
+    <div className="px-4 relative max-w-6xl mx-auto pt-4 pb-16 md:py-32">
       <div className="pb-10 pt-8 xl:pt-0">
         <h1 className="font-display font-semibold text-5xl text-primary">Frequently Asked Questions</h1>
         <p className="pt-2 text-lg text-[#666]">Learn everything about Portal Check and the most frequently asked questions.</p> 
