@@ -1,4 +1,4 @@
-import invert from "../../assets/logo-inverted.svg";
+import invert from "../../assets/logo-invert.svg";
 import logo from "/logo.svg";
 import lkdn from "../../assets/lkdn.svg";
 import x from "../../assets/X.svg";

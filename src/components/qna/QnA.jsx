@@ -38,7 +38,7 @@ const QnA = () => {
 
 
   return (
-    <div className="w-full md:max-w-xl pt-4 md:p-4">
+    <div className="w-full md:max-w-xl mx-auto pt-4 md:p-4">
       {faqData.map((item, index) => (
         <div key={index} className="mb-4">
           <div
