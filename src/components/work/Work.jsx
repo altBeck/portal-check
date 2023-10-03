@@ -15,7 +15,7 @@ const Work = () => {
           <p className="pt-4 text-white text-xl max-w-[600px]">At Portal Check, we understand the importance of maintaining academic integrity and safeguarding against fraud. That&apos;s why with our designed user-friendly interface, the verification process becomes a breeze, allowing you to focus on what truly matters – enabling institutions, employers, and organizations to confidently validate student enrollment without the complexities. Let&apos;s explore the five simple steps to efficient verification.</p>
         </div>
 
-        <div className="pt-4 ">
+        <div className="pt-4 2xl:pb-36">
           <div className="hidden md:block">
             <Switch />
           </div>

@@ -1,9 +1,5 @@
-import open from "../../assets/open.svg";
-import close from "../../assets/close.svg";
-import { useState } from 'react'
-
 const QnA = () => {
-  const faqData = [
+  const gridItems = [
     {
       question: 'Nigerian Universities',
       answer: 'The system aims to benefit universities by streamlining the student verification process and reducing administrative burdens. It caters to university administrators and staff responsible for verifying student records.',
@@ -30,41 +26,16 @@ const QnA = () => {
     },
   ];
 
-  const [expandedIndex, setExpandedIndex] = useState(null);
-
-  const handleToggle = (index) => {
-    setExpandedIndex((prevIndex) => (prevIndex === index ? null : index));
-  };
-
 
   return (
-    <div className="w-full md:max-w-xl mx-auto pt-4 md:p-4">
-      {faqData.map((item, index) => (
-        <div key={index} className="mb-4">
-          <div
-            className="bg-[#fbfbfb] p-4 rounded-lg fade cursor-pointer"
-            onClick={() => handleToggle(index)}
-            style={{
-              opacity: expandedIndex === index ? '1' : '1',
-              transform: expandedIndex === index
-                ? 'translate3d(0px, 0px, 0px) scale3d(1.05, 1.05, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)'
-                : 'none',
-              transformStyle: 'preserve-3d',
-              width: 'auto',
-              height: 'auto',
-              transition: 'opacity 0.3s ease-in-out, transform 0.3s ease-in-out',
-            }}
-          >
-            <div className="flex justify-between items-center mb-2">
-              <span className="font-medium text-[22px]">{item.question}</span>
-              {expandedIndex === index ? (
-                <img src={close} alt="Expand" />
-              ) : (
-                <img src={open} alt="Collapse" />
-              )}
-            </div>
-            {expandedIndex === index && <div className="text-[#666]">{item.answer}</div>}
-          </div>
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4">
+      {gridItems.map((item, index) => (
+        <div
+          key={index}
+          className="bg-tertiary border rounded-md shado p-4 text-white"
+        >
+          <h2 className="text-2xl text-[#1a1a1a] font-bold mb-2">{item.question}</h2>
+          <p className="text-greyScale">{item.answer}</p>
         </div>
       ))}
     </div>
