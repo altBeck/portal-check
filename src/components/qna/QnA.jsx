@@ -32,7 +32,7 @@ const QnA = () => {
       {gridItems.map((item, index) => (
         <div
           key={index}
-          className="bg-tertiary border rounded-md shado p-4 text-white"
+          className="bg-tertiary border rounded-md fade p-4 text-white"
         >
           <h2 className="text-2xl text-[#1a1a1a] font-bold mb-2">{item.question}</h2>
           <p className="text-greyScale">{item.answer}</p>
