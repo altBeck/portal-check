@@ -1,8 +1,8 @@
 import uni from "../../assets/university.svg";
 import work from "../../assets/employer.svg";
 import govt from "../../assets/government.svg";
-import edu from "../../assets/education.svg";
-import alu from "../../assets/alumni.svg";
+import edu from "../../assets/education0.svg";
+import alu from "../../assets/alumni-1.svg";
 import three from "../../assets/3rd-party.svg";
 
 const QnA = () => {
